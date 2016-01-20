@@ -11,7 +11,10 @@ Installation instructions:
 1) run the installer:
 
 setup.py install --extension extensions/isswatch
-#./bin/wee_extension --install=extensions/isswatch.tar.gz
+
+or
+
+./bin/wee_extension --install=extensions/isswatch.tar.gz
 
 2) restart weewx:
 
