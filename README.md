@@ -1,4 +1,4 @@
-# Weewx-ISS-WATCH
+# ISS-WATCH for WEEWX
 Simple Search List extension for ISS Sightings
 
 weewx extension that implements uses an RSS Feed from Spot the Station to 
@@ -6,7 +6,12 @@ provide template variables to alert to possible sighting opportunities
 
 Copyright 2016 Chris Davies
 
-Installation instructions:
+## Background:
+
+The skin now includes two files one that works with Bootstrap and can be included into another skin and a standalone version.
+
+
+## Installation instructions:
 
 1) run the installer:
 
