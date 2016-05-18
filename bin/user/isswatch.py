@@ -91,7 +91,7 @@ class ISSAlert(SearchList):
 							
 				#Has the time passed?
 				now = time.time()
-				then = time.mktime(datetime.datetime.strptime(newsighting['date'] + " " + newsighting['time'], "%A %b %d, %Y %I:%M %p").timetuple())
+				then = time.mktime(datetime.datetime.strptime(newsighting['date'] + " " + newsighting['time'], "%A %b %d, %Y %H:%M %p").timetuple())
 				if then > now:
 					#Add this sighting to our list of all
 					issall.append(newsighting)
